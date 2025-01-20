@@ -75,7 +75,7 @@
     width:1440px;
    margin-left: 140px;
    align-items: center;
-    
+
     height: 575px;
     display: flex;
     
@@ -129,15 +129,20 @@
     color:#FFFFFF ;
 
 }
+
+.Main-Items{
+    width: 1440px;
+    background-image: url(photo/bg.png);
+}
 .Section{
     margin-left: 140px;
     width: 1440px;
     height: 851px;
-    background-image: url(photo/bg.png);
+   
     background-repeat: no-repeat;
 }
 .Standard{
-    margin-left: 250px;
+    margin-left: 300px;
     margin-top: 60px;
     margin-bottom: 80px;
     font-family:"Quicksand", serif ;
@@ -170,6 +175,7 @@
     border-radius: 18px;
   
 }
+
 .Third-Box{
    
     width: 368px;
@@ -235,4 +241,84 @@
     color:#761ec3 ;
     margin-top: 40px;
     margin-bottom: 40px;
+}
+
+.Ball{
+    margin-top: 50px;
+    margin-left: 520px;
+    margin-bottom: 50px;
+    width: 1440px;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+.Ball-One{
+    width: 40px;
+    height: 40px;
+    margin-right: 20px;
+    border-radius: 100%;
+    background-color: #F0AA00;
+    align-items: center;
+    text-align: center;
+    font-size: 25px;
+    color: aliceblue;
+    padding-top: 10px;
+}
+.Ball-Two{
+    width: 40px;
+    height: 40px;
+    border-radius: 100%;
+    background-color: #F0AA00;
+    align-items: center;
+    text-align: center;
+    font-size: 25px;
+    color: aliceblue;
+    padding-top: 10px;
+}
+.Story-Image{
+    width: 540px;
+    height: 630px;
+}
+.Heading{
+    margin-left: 650px;
+    margin-bottom: 60px;
+    width: 1440px;
+    height: auto;
+    font-family:"Quicksand", serif ;
+    font-size: 46px;
+    font-weight: 800px;
+    
+    
+}
+.Section-Two{
+    width: 1440px;
+ background-image: url(photo/bg.png);
+}
+
+.Our-Stories{
+   margin-left: 140px;
+    width:1440px ;
+    height:1018px ;
+    display: flex;
+}
+.First-Photo{
+    margin-right: 15px;
+    width: 540px;
+    height: 630px;
+}
+.All-Photo{
+    width:601px ;
+    height: 623px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+.Photos{
+    border-radius: 16px;
+}
+.Photos-Picture{
+    font-family:"Quicksand", serif ;
+    font-size:15.34px ;
+   font-weight: bold;
+    color: black;
 }
