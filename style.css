@@ -1,1 +1,238 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap');
+.quicksand-font {
+    font-family: "Quicksand", serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+  }
+  .nav-head{
+    width: 1440px;
+    height: 102px;
+    margin-top: 20px;
+    margin-left: 140px;
+    margin-right: 140px;
+    margin-bottom: 20px;
+    display: flex;
+    align-items: center;
+    justify-items: auto;
+  }
+  #logo{
+    width: 62px;
+    height: 62px;
+  }
+  .school{
+    margin-left: 10px;
+    font-family:"Quicksand", serif ;
+    font-weight: 700px;
+    font-size: 32px;
+    color: black;
+  }
+  .Home{
+    margin-left: 186px;
+    font-family:"Quicksand", serif ;
+    font-weight: 800px;
+    font-size: 20px;
+    text-decoration: none;
+    padding-right: 30px;
+    color: orange;
+  }
+  .About{
+    font-family:"Quicksand", serif ;
+    font-weight: 400px;
+    font-size: 20px;
+    text-decoration: none;
+    padding-right: 30px;
+    color:skyblue;
+  }
+.Facilities{
+    font-family:"Quicksand", serif ;
+    font-weight: 400px;
+    font-size: 20px;
+    text-decoration: none;
+    padding-right: 30px;
+    color: #05D4DF;
+}
+.Admission{
+    
+    font-family:"Quicksand", serif ;
+    font-weight: 400px;
+    font-size: 20px;
+    text-decoration: none;
+    color: #5D58EF;
+}
+.contact{
+    margin-left: 186px;
+    width: 197px;
+    height: 50px;
+    border-radius: 12px;
+    background-color: orange; 
+    border: none;
+    font-family:"Quicksand", serif ;
+    font-weight: 700px;
+    color: #FFFFFF;
+}
+.Main{
+    width:1440px;
+   margin-left: 140px;
+   align-items: center;
+    
+    height: 575px;
+    display: flex;
+    
 
+}
+
+
+.main-div{
+    width: 640px;
+    height: 183px;
+    margin-bottom: 200px;
+}
+.Text-head{
+    width: 640px;
+    height:183px ;
+    font-family:"Quicksand", serif ;
+    font-weight: 800;
+    font-size: 56px;
+    
+ 
+}
+
+
+.Hero{
+    padding-left: 30px;
+    width: 469px;
+    height: 575px; 
+    align-items: center;
+}
+#Empower{
+    font-family:"Quicksand", serif ;
+    font-size: 56px;
+    color: orange;
+}
+#Toward{
+    font-family:"Quicksand", serif ;
+    font-size: 56px;
+    color:skyblue;
+}
+.Text-two{
+    font-family:"Quicksand", serif ;
+    font-size: 20px;
+    font-weight: 300;
+}
+.Enroll{
+    width:197px;
+    height: 50px;
+    background-color: black;
+    border-radius: 12px;
+    font-family:"Quicksand", serif ;
+    color:#FFFFFF ;
+
+}
+.Section{
+    margin-left: 140px;
+    width: 1440px;
+    height: 851px;
+    background-image: url(photo/bg.png);
+    background-repeat: no-repeat;
+}
+.Standard{
+    margin-left: 250px;
+    margin-top: 60px;
+    margin-bottom: 80px;
+    font-family:"Quicksand", serif ;
+    font-size: 46px;
+    font-weight: 800;
+    align-items: center;
+}
+.Photos-Text{
+    width: 1160px;
+    height: 482px;
+  
+    display: flex;
+}
+.First-Box{
+    width: 368px;
+    height: 477px;
+    padding-top: 50px;
+    margin-right: 28px;
+    border-radius: 18px;
+    align-items: center;
+    text-align: center;
+}
+.Second-Box{
+    width: 368px;
+    height: 477px;
+    padding-top: 50px;
+    margin-right: 28px;
+    align-items: center;
+    text-align: center;
+    border-radius: 18px;
+  
+}
+.Third-Box{
+   
+    width: 368px;
+    height: 477px;
+    padding-top: 50px;
+    margin-right: 28px;
+    align-items: center;
+    text-align: center;
+    border-radius: 18px;
+}
+.Head-Three{
+    padding-top: 30px;
+    font-family:"Quicksand", serif ;
+    font-weight: 800px;
+    font-size: 25px;
+    color: black;
+}
+.Head-Three2{
+    padding-top: 30px;
+    font-family:"Quicksand", serif ;
+    font-weight: 800px;
+    font-size: 25px;
+    color: black;
+}
+.Head-Three3{
+    padding-top: 30px;
+    font-family:"Quicksand", serif ;
+    font-weight: 800px;
+    font-size: 25px;
+    color: black;
+}
+.P-text{
+    
+    font-family:"Quicksand", serif ;
+    font-weight: 400px;
+    font-size: 15.09px;
+    color:#808080;
+}
+
+.Read-One{
+    font-family:"Quicksand", serif ;
+    font-size: 15.09px;
+    font-weight: 800;
+    color:#64C8FF ;
+    margin-top: 40px;
+    margin-bottom: 40px;
+
+}
+.Read-Two{
+    font-family:"Quicksand", serif ;
+    font-size: 15.09px;
+    font-weight: 800;
+    color:#F0AA00 ;
+    margin-top: 40px;
+    margin-bottom: 40px;
+
+}
+
+.Read-Three{
+    font-family:"Quicksand", serif ;
+    font-size: 15.09px;
+    font-weight: 800;
+    color:#761ec3 ;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
