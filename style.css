@@ -159,7 +159,7 @@
 .First-Box{
     width: 368px;
     height: 477px;
-    background-color: #def5ffbb;
+    background: linear-gradient(to bottom, #a4c5e5d0,#ffffff ) ;
     padding-top: 50px;
     margin-right: 28px;
     border-radius: 18px;
@@ -169,7 +169,7 @@
 .Second-Box{
     width: 368px;
     height: 477px;
-    background-color:#FFF4DC;
+    background: linear-gradient(to bottom, #FFF4DC,#ffffff ) ;
     padding-top: 50px;
     margin-right: 28px;
     align-items: center;
@@ -182,7 +182,7 @@
    
     width: 368px;
     height: 477px;
-    background-color: #F2E8FF;
+    background: linear-gradient(to bottom, #F2E8FF,#ffffff ) ;
     padding-top: 50px;
     margin-right: 28px;
     align-items: center;
@@ -247,7 +247,7 @@
 }
 
 .Ball{
-    margin-top: 50px;
+    margin-top: 100px;
     margin-left: 520px;
     margin-bottom: 50px;
     width: 1440px;
@@ -298,8 +298,9 @@
 }
 .Section-Two{
     width: 1440px;
+    height:1018px ;
     background-image: url(photo/bg.png);
-    background-color: hwb(38 62% 17% / 0.401);
+    background: linear-gradient(to top, #f5e7ce,#ffffff);
     
 }
 
@@ -429,4 +430,95 @@
     margin-left: 40px;
     margin-top: -150px;
     color: #FFFFFF;
+}
+
+#View{
+    width: 197px;
+    height: 50px;
+    margin-top: 700px;
+    margin-left: -650px;
+    background-color: black;
+    border: none;
+    border-radius:12px ;
+    font-family:"Quicksand", serif ;
+    font-size:20px ;
+    font-weight: 800px;
+   color:#FFFFFF ;
+}
+.Footer{
+    width: 1440px;
+    height: 519px;
+    background-color:#01ACFD ;
+}
+.Main-Footer{
+    width: 1071px;
+    height: 222px;
+    display: flex;
+    
+    
+}
+.Kids{
+    
+     margin-left: 140px;
+    display: flex;
+}
+.First-side{
+    margin-top: 110px;
+    width: 500px;
+    height: 520px;
+    
+}
+#Kid-Edu{
+    margin-left: 10px;
+    width: 206px;
+    height: 80px;
+    font-family:"Quicksand", serif ;
+    font-size: 42px;
+    font-weight: bold;
+    color: #FFFFFF;
+}
+#Pizza{
+    width: 400px;
+    height: 100px;
+    margin-left: 140px;
+    font-family:"Quicksand", serif ;
+    font-size: 20px;
+    font-weight: 300px;
+    color: #FFFFFF; 
+}
+.Second-side{
+    margin-top: 110px;
+    margin-left: 250px;
+    width: 500px;
+    height: 220px;
+}
+.Home-Foot{
+    font-family:"Quicksand", serif ;
+    font-size: 20px;
+    font-weight: 300px;
+    color: #FFFFFF; 
+}
+#About{
+    width: 157px;
+    margin-bottom: 30px;
+    font-family:"Quicksand", serif ;
+    font-size: 24px;
+    font-weight: bold;
+    color: #FFFFFF; 
+}
+.Social-logo{
+   display: flex;
+}
+.Third-side{
+    margin-top: 110px;
+    margin-left: 250px;
+}
+.Second-side{
+    margin-left: 150px;
+}
+#Keep-Touch{
+    font-family:"Quicksand", serif ;
+    font-size: 26px;
+    font-weight: bold;
+    color: #FFFFFF; 
 }
