@@ -523,3 +523,89 @@
     font-weight: bold;
     color: #FFFFFF; 
 }
+
+  @media screen and (Max-Width:576px) {
+    #Logo{
+        padding-left: 0px;
+    }
+    .school{
+        display: none;
+    }
+    .nav-bar{
+        display: none;
+    }
+    .main-div{
+        width: 500px;
+        margin-right: 500px;
+    }
+    .Main{
+        flex-direction: column-reverse;
+        margin-top: 350px;
+        align-items: center;
+        text-align: center;
+    }
+    .Hero{
+       
+        margin-right: 400px;
+    }
+    .Text-two{
+        align-items: center;
+        margin-right: 180px;
+        margin-left: 20px;
+        width: 500px;
+    }
+    .Enroll{
+        margin-left:50px ;
+    }
+    .Photos-Text{
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+        width: auto;
+        height: auto;
+        margin-left: 300px;
+        margin-bottom: 50px;
+       
+
+    }
+    .Standard{
+        margin-right: 150px;
+    }
+    .First-Box{
+        margin-bottom: 20px;
+    }
+    .Second-Box{
+        margin-bottom: 20px;
+    }
+    .Third-Box{
+        margin-bottom: 20px; 
+    }
+    .Our-Stories{
+      
+   flex-direction: column;
+    }
+    .All-Photo{
+        flex-direction: column;
+    }
+    .Heading{
+        align-items: center;
+        margin-top: 800px;
+        padding-right: 200px;
+    }
+    .Ball{
+     display: none;
+    }
+    .First-Photo{
+        display: none;
+    }
+    .All-Photo{
+        margin-left: 200px;
+    }
+    .Footer{
+        
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+        flex-direction: column;
+
+    }
+   
+  }
