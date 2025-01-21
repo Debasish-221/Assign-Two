@@ -322,3 +322,39 @@
    font-weight: bold;
     color: black;
 }
+#A-Fun{
+    font-family:"Quicksand", serif ;
+    font-size: 24px;
+    font-weight: bold;
+    color: black;
+}
+#Beautiful{
+    padding-top: 10px;
+    font-family:"Quicksand", serif ;
+    font-size: 15.34px;
+    font-weight: 400px;
+    color: #666666;
+}
+#Image-Button-One{
+    width: 175px;
+    height: 47px ;
+    background-color:#3CD8E8 ;
+    border: none;
+    border-radius:47px ;
+    margin-left: 40px;
+    margin-top: -150px;
+    color: #FFFFFF;
+   
+}
+#Image-Button-Two{
+    width: 175px;
+    height: 37px ;
+    background-color:#95B226 ;
+    border: none;
+    border-radius:47px ;
+    margin-left: 40px;
+   
+   margin-top: -150px;
+    color: #FFFFFF;
+   
+}
