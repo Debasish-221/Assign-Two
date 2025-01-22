@@ -6,7 +6,7 @@
     font-style: normal;
   }
   
-  
+
   .nav-head{
     width: 1440px;
     height: 102px;
@@ -87,6 +87,11 @@
     font-weight: 700px;
     color: #FFFFFF;
 }
+
+.Menu{
+    display: none;
+}
+
 
 
 .Main{
@@ -638,10 +643,19 @@
         padding-left: 0px;
     }
 
+    .Menu{ 
+        padding-bottom: 50px;
+        margin-left: 1200px;
+        display: block;
+        width: 40px;
+        height: 40px;
+    }
+
     .school{
         display: none;
     }
     .nav-bar{
+        
         display: none;
     }
     .main-div{
@@ -650,9 +664,13 @@
     }
     .Main{
         flex-direction: column-reverse;
-        margin-top: 350px;
+        margin-top: 400px;
         align-items: center;
         text-align: center;
+    }
+    .nav-head{
+        
+        border: 1px solid yellow;
     }
 
     .Hero{
